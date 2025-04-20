@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asorn - My Blog</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg" />
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">主页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品级展示</li>
+                <li class="magical btn nav" onclick="window.location.href='./blog.html'">经历</li>
+                <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">主页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品集展示</li>
+                    <li class="magical btn nav" onclick="window.location.href='./blog.html'">经历</li>
+                    <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="blog">
+        <div class="blog-left">
+            <div class="blog-left-line"><img src="./assets/blog/line-dot.svg"></div>
+        </div>
+        <div class="blog-list">
+            <div class="item">
+                <h1 class="blog-title" style="font-size: 36px; margin-top: 10px; margin-bottom: 40px;">个人经历</h1>
+                <a target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <img src="./assets/blog/logo/hezho.png" width="60px" height="60px" style="margin-right: 12px;">
+                                <div class="text-container" style="display: flex; flex-direction: column; min-width: 120px;">
+                                    <div class="name" style="font-size: 36px; margin: 0; line-height: 1.2;">贺州学院</div>
+                                    <div class="small-text" style="margin-top: 16px; margin-bottom: 0;">HeZhou University</div>
+                                </div>
+                            </div>
+                            <div class="tag">✨</div>
+                        </div>
+                        <div class="desc">
+                            <h3 style="font-size: 12px; margin: 0 0 8px 0;">2021.09-2023.06</h3>
+                            <h4 style="font-size: 16px; margin: 0 0 6px 0; color: #FFFFFF; display: flex; align-items: center; gap: 8px;">
+                                <img src="./assets\blog\chess-line_1.svg" width="18px" height="18px">
+                                核心竞赛经历
+                            </h4>
+                            <h5 style="font-size: 15px; margin: 0 0 4px 0;">全国大学生广告艺术大赛（2022.05）</h5>
+                            <ul style="margin: 8px 0; padding-left: 20px; list-style-type: none;">
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    团队核心成员，主导创意策划与视觉设计全流程
+                                </li>
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    作品《海洋艺术觉醒》获省级二等奖，全国决赛入围
+                                </li>
+                            </ul>
+                            <h5 style="font-size: 15px; margin: 12px 0 4px 0;">全国高校数字艺术设计大赛</h5>
+                            <ul style="margin: 8px 0; padding-left: 20px;">
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    独立完成 3D 空间设计作品《小新之家》
+                                </li>
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    获国家级三等奖
+                                </li>
+                            </ul>
+                            <h5 style="font-size: 15px; margin: 0 0 4px 0;">社会兼职与教学实践（2022.05）</h5>
+                            <ul style="margin: 8px 0; padding-left: 20px; list-style-type: none;">
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    线下课程，高中美术班，学员 50 + 人，结课作品合格率 100%▶ 其中 46 人取得优秀美术成绩，学员绘画水平提升周期缩短 25%。具备较强的美术基础
+                                </li>
+                            </ul>    
+                            <h5 style="font-size: 15px; margin: 0 0 4px 0;">专业深化与职场衔接（2022.05）</h5>
+                            <ul style="margin: 8px 0; padding-left: 20px; list-style-type: none;">
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    AIGC 设计应用▶ 自主掌握 ComfyUI 工作流，完成 5 套 AI 生成设计方案（含海报 / UI 界面）▶ 结合 AE 动效设计，制作 3 部交互式产品演示视频
+                                </li>
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    软件技能矩阵▶ Figma：精通界面设计，完成 8 个 APP 原型设计（含交互逻辑搭建）▶ Blender：掌握建模渲染及简易动画，
+                                </li>
+                            </ul>
+                            <div class="content-divider"></div>
+                            <h3 style="font-size: 12px; margin: 0 0 8px 0;">2021.09-2023.06</h3>
+                            <div class="title" style="margin-bottom: 16px; display: flex; align-items: center;">
+                                <img src="./assets/blog/logo/SiliconFlow.png" width="60px" height="60px" style="margin-right: 12px;">
+                                <div style="display: flex; flex-direction: column;">
+                                    <div style="font-size: 36px; margin: 0; line-height: 1.2;">硅基流动</div>
+                                    <div style="font-size: 14px; margin-top: 8px; color: #999;">SiliconFlow</div>
+                                </div>
+                            </div>
+                            <h4 style="font-size: 16px; margin: 0 0 6px 0; color: #FFFFFF; display: flex; align-items: center; gap: 8px;">
+                                <img src="./assets\blog\AI.svg" width="18px" height="18px">
+                                实习经历
+                            </h4>
+                            <h5 style="font-size: 15px; margin: 0 0 4px 0;">北京硅基流动科技有限公司 - AI 应用实习生  （2022.05）</h5>
+                            <ul style="margin: 8px 0; padding-left: 20px; list-style-type: none;">
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    <strong style="font-size: 14px; color: #F4F4F4; font-weight: 700;">公司背景：</strong>硅基流动作为国内 AI 头部企业，于 2023 年 8 月创立。公司汇聚顶尖 AI 人才，依托前沿技术，在 AI 基础设施领域建树颇丰。已成功推出大模型云服务平台 SiliconCloud、推理引擎 SiliconLLM 以及图像 / 视频生成加速库 OneDiff 等产品。融资进程顺利，获创新工场、华创资本等知名机构注资，并与华为云达成深度合作，业务广泛覆盖多领域，大力推动 AI 技术落地应用与行业进步。
+                                </li>
+                                <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                    <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                    <strong style="font-size: 14px; color: #F4F4F4; font-weight: 700;">个人成长：</strong>通过实战掌握 ComfyUI 工作流搭建原理，可自主设计业务场景所需流程；学习基础代码知识，具备独立解决工具链常见报错的能力，对 AI 工具产品化落地形成有着自己的见解和解决办法。
+                                </li>
+                            <h5 style="font-size: 15px; margin: 0 0 4px 0;">ComfyUI 工作流搭建与上线  （2022.05）</h5>
+                            <ul style="margin: 8px 0; padding-left: 20px; list-style-type: none;"></ul>
+                            <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                主导设计并上线 [5] 个多类型 ComfyUI 工作流（文生图 / 视频生成 / 风格迁移等），通过节点配置优化，工作流运行效率提升 [30]%，生成时间显著缩短。
+                            </li>
+                            <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                <strong style="font-size: 14px; color: #F4F4F4; font-weight: 700;">直播绘画教学与社区引流：</strong>担任直播讲师，聚焦 BizyAir 智能工具与 PS 绘画技巧 开展 [30] 场 实战教学直播，单场直播最高人气 [40%]，通过演示 AI 辅助绘画流程与创意设计思路吸引行业从业者及爱好者关注。
+                            </li>
+                            <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                <strong style="font-size: 14px; color: #F4F4F4; font-weight: 700;">
+                                    运营设计与视频剪辑：</strong>基于业务需求，运用 ComfyUI 生成素材完成 [5] 个运营设计（海报 / 封面 页面等），相关活动参与率提升 [30]%。
+                            </li>
+                            <li style="font-size: 14px; margin-bottom: 8px; position: relative; padding-left: 16px;">
+                                <span style="position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background-color: currentColor; border-radius: 50%;"></span>
+                                <strong style="font-size: 14px; color: #F4F4F4; font-weight: 700;">领导寄语：</strong>其兼具技术敏感度与落地执行力，是能够快速成长并独当一面的优秀人才，抗压能力与学习能力尤为突出，未来在 AI 工具应用与产品化领域潜力可期。
+                            </li>
+                            <p style="font-size: 14px; font-style: italic; margin: 16px 0 0 0;">期待与您合作，共创美好未来！</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">HUIHUIHUI</div>
+                        <div class="info-time">2021 09 - 2025 06</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            
+            <div class="item">
+                <a  target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">个人寄语和成长</div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <h4 style="font-size: 16px; margin: 0 0 6px 0; color: #FFFFFF; display: flex; align-items: center; gap: 8px;">
+                                <img src="./assets\blog\start.svg" width="18px" height="18px">
+                                对新技术的探索与学习
+                            </h4>
+                            <p style="font-size: 14px; margin: 0 0 16px 0;">
+                                我秉持着开放且积极的态度，始终关注行业前沿动态，尤其是在 AI 领域。尽管并非计算机专业出身，但这从未阻碍我对新技术的探索。面对不断更新的 AI 资讯，我凭借自学能力与坚定的钻研精神，主动掌握基础代码知识，并将其应用于实际工作场景，有效提升工作效率。
+                            </p>
+                            <h4 style="font-size: 16px; margin: 0 0 6px 0; color: #FFFFFF; display: flex; align-items: center; gap: 8px;">
+                                <img src="./assets\blog\video.svg" width="18px" height="18px">
+                                设计能力的精进与创新
+                            </h4>
+                            <p style="font-size: 14px; margin: 0 0 16px 0;">
+                                在设计工作中，我始终坚持美学与实用功能相统一的原则。扎实的绘画功底为我提供了良好的创作基础，使我能够精准呈现设计创意。随着 AI 技术在设计领域的应用逐渐普及，我敏锐捕捉到这一趋势，积极将 AI 工具与传统设计手法相结合。通过运用 AI 生成素材并融入运营类设计作品，成功提升了活动参与率；在宣传视频制作中合理运用 AI 特效，提高了视频播放完成率，实现了设计效率与创意的双重提升。
+                            </p>
+                            <h4 style="font-size: 16px; margin: 0 0 6px 0; color: #FFFFFF; display: flex; align-items: center; gap: 8px;">
+                                <img src="./assets\blog\BAZI.svg" width="18px" height="18px">
+                                项目实践与自我突破
+                            </h4>
+                            <p style="font-size: 14px; margin: 0 0 0 0;">
+                                在 ComfyUI 工作流搭建及直播教学等项目实践中，我始终保持专注与投入，全力以赴完成各项任务。凭借对新事物的敏锐洞察力和较强的动手实践能力，我不断突破自我，取得了一系列成果。我期待在未来工作中，继续发挥自身优势，为团队创造更大价值，在专业领域持续深耕前行。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">Asorn</div>
+                        <div class="info-time">2024-9-9</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by <a href="https://asorn.cn/" target="_blank">Asorn</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="https://asorn.cn/" target="_blank">Asorn</a>
+            </div>
+            <span>|</span>
+            <div class="friends">
+                <a href="https://zdo.fun/" target="_blank">ZDO</a>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script>
+    window.addEventListener("mousemove", function (e) {
+        document.querySelectorAll(".magical").forEach(element => {
+            const rect = element.getBoundingClientRect();
+            const offsetX = e.clientX - rect.left;
+            const offsetY = e.clientY - rect.top;
+            element.style.setProperty("--mouse-x", `${offsetX}px`);
+            element.style.setProperty("--mouse-y", `${offsetY}px`);
+        });
+    });
+</script>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>
